@@ -14,7 +14,7 @@ on:
 
 env:
   IMAGE_PULLED: cellprofiler/cellprofiler:latest
-  IMAGE_PUSHED: ghcr.io/vemonet/cellprofiler:latest
+  IMAGE_PUSHED: ghcr.io/seunAdeks/cellprofiler:latest
 
 jobs:
   publish-latest:
