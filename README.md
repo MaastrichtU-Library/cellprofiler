@@ -4,7 +4,7 @@ cf. Github repository: https://github.com/CellProfiler/CellProfiler
 
 Hosted on [GitHub Container Registry](https://github.com/orgs/vemonet/packages/container/package/cellprofiler) ([ghcr.io](https://ghcr.io)) to avoid DockerHub pull limitations, and easily deploy on clusters (such as Kubernetes).
 
-Adapted from https://github.com/vemonet/cellprofiler/actions
+Adapted from https://github.com/vemonet/cellprofiler
 
 ## Automatically updated
 
