@@ -15,7 +15,7 @@ The image on [ghcr.io](https://ghcr.io) is automatically updated every week (Mon
 ## Run
 
 ```bash
-docker run -it -v $(pwd):/root ghcr.io/MaastrichtU-Library/cellprofiler:latest
+docker run -it -v $(pwd):/root ghcr.io/maastrichtu-library/cellprofiler:latest
 ```
 
 In the container:
@@ -26,7 +26,7 @@ In the container:
 Set entrypoint to `tail -f /dev/null` to keep it hanging as a service.
 
 ```bash
-docker run -it --entrypoint tail -v $(pwd):/root ghcr.io/MaastrichtU-Library/cellprofiler:latest -f /dev/null
+docker run -it --entrypoint tail -v $(pwd):/root ghcr.io/maastrichtu-library/cellprofiler:latest -f /dev/null
 ```
 
 ## Build
@@ -34,12 +34,12 @@ docker run -it --entrypoint tail -v $(pwd):/root ghcr.io/MaastrichtU-Library/cel
 Feel free to edit the `Dockerfile` to install additional packages in the image.
 
 ```bash
-docker build -t ghcr.io/MaastrichtU-Library/cellprofiler:latest .
+docker build -t ghcr.io/maastrichtu-library/cellprofiler:latest .
 ```
 
 ## Push
 
 ```bash
-docker push ghcr.io/MaastrichtU-Library/cellprofiler:latest
+docker push ghcr.io/maastrichtu-library/cellprofiler:latest
 ```
 
