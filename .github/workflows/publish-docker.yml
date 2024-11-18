@@ -14,7 +14,7 @@ on:
 
 env:
   IMAGE_PULLED: cellprofiler/cellprofiler:4.2.8
-  IMAGE_PUSHED: ghcr.io/MaastrichtU-Library/cellprofiler:latest
+  IMAGE_PUSHED: ghcr.io/maastrichtu-library/cellprofiler:latest
 
 jobs:
   publish-latest:
