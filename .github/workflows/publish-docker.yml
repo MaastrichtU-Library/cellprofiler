@@ -9,7 +9,7 @@ on:
     - 'Dockerfile'
     - '.github/workflows/publish-docker.yml'
   schedule:
-    - cron: '0 3 * * 1'
+    - cron: '0 3 1 * *'
     # Monday at 3:00 GMT+1
 
 env:
